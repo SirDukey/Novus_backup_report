@@ -6,7 +6,7 @@ import smtplib
 import psycopg2
 
 '''Database connection variables'''
-connect_str = "dbname='backups' user='postgres' host='mail.novusgroup.co.za' password='global01a'"
+connect_str = "dbname='backups' user='postgres' host='mail.novusgroup.co.za' password='supersecretpassword'"
 conn = psycopg2.connect(connect_str)
 cur = conn.cursor()
 
